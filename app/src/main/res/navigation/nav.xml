@@ -18,5 +18,9 @@
         android:id="@+id/AlarmFragment"
         android:name="com.example.wakeup.AlarmFragment"
         android:label="fragment_test"
-        tools:layout="@layout/fragment_alarm" />
+        tools:layout="@layout/fragment_alarm" >
+        <action
+            android:id="@+id/action_AlarmFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
 </navigation>
